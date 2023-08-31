@@ -13,6 +13,7 @@ public class Rope : MonoBehaviour
 
     void Awake()
     {
+        transform.position = Vector3.zero;
         lr.positionCount = resolution;
     }
 
