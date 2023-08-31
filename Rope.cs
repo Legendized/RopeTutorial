@@ -3,9 +3,9 @@ using UnityEngine;
 public class Rope : MonoBehaviour
 {
     public float gamma = 2.2f;
-    public float drop = 3f;
+    public float drop = -2f;
     public LineRenderer lr;
-    public int resolution = 5;
+    public int resolution = 8;
     float normalizer => (1f-1f/resolution);
 
     public Transform startPos;
